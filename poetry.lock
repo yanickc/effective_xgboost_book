@@ -829,6 +829,24 @@ files = [
 traitlets = "*"
 
 [[package]]
+name = "mljar-scikit-plot"
+version = "0.3.11"
+description = "An intuitive library to add plotting functionality to scikit-learn objects."
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "mljar-scikit-plot-0.3.11.tar.gz", hash = "sha256:3b95222afba98ca1aa2d6f52b10a8cf0a9cfc0e87abeba6ee885b634f6944fbb"},
+]
+
+[package.dependencies]
+joblib = ">=0.10"
+matplotlib = ">=1.4.0"
+scikit-learn = ">=1.1.0"
+
+[package.extras]
+testing = ["pytest"]
+
+[[package]]
 name = "nest-asyncio"
 version = "1.6.0"
 description = "Patch asyncio to allow nested event loops"
@@ -1763,4 +1781,4 @@ scipy = ">=1.0.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "309975c37c71e8a7a67e4c5a05c3ebbceeb3fbde5b58f463b7e845b1780be889"
+content-hash = "b8d427c3ec2d6b818ffe6b6347161da274087ad0a671575e45cb58c7a31b328b"
